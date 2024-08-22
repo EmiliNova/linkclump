@@ -20,7 +20,11 @@
     }
   ],
   "permissions": [
-    "bookmarks", "http://*/*", "https://*/*"
+    "bookmarks"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
   ],
   "web_accessible_resources": [
     "pages/test_area.html"
